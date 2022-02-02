@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+/* Colors and fonts */
+body {
+  background: #F7F9FC;
+  color: #304bac;
+  font-family: 'Ubuntu';
+  font-size: 17px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Ubuntu';
+}
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #254e2f;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Ubuntu';
+  text-decoration: none;
+  color: #14163a;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: rosybrown;
+}
+p {
+  font-family: 'Ubuntu';
+  text-decoration: none;
+  color: #23b110;
+  font-weight: 600;
+  font-size: 17px;
+}
+/* Classes*/
+.img-circle {
+  border-radius: 50%;
+}
+.btn-purple {
+  background-color: #DD6BE1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.card-white {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 5px 0px;
+  text-align: center;
+  /*opacity: 0.8;*/
+}
+.rainbow-lr {
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+  color:transparent;
+  background-clip: text;
+}
+.rainbow-td {
+  background: linear-gradient(to bottom, red, orange , yellow, green, cyan, blue, violet);
+  color:transparent;
+  background-clip: text;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  background:linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo,violet);
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
